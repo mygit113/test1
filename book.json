@@ -1,0 +1,92 @@
+{
+    "title": "",
+    "author": "AladdinGo2.0",
+    "description": "",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./style/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "anchors",
+        "favicon",
+        "search-pro",
+        "expandable-chapters-small",
+        "splitter",
+        "hide-element",
+        "-tbfed-pagefooter",
+        "-auto-scroll-table",
+        "-advanced-emoji",
+        "-code",
+        "-chapter-fold",
+        "-fontsettings",
+        "-github-buttons",
+        "-klipse",
+        "-livereload",
+        "-lunr",
+        "-sharing",
+        "-pageview-count",
+        "-page-toc-button",
+        "-popup",
+        "-search",
+        "-toggle-chapters",
+        "-todo"
+    ],
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [
+                ".gitbook-link"
+            ]
+        },
+        
+        "code": {
+            "copyButtons": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © XXX 2021",
+            "modify_label": "发布时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "weibo",
+                "qq",
+                "qzone",
+                "douban",
+                "facebook",
+                "google",
+                "linkedin",
+                "twitter",
+                "whatsapp"
+            ]
+        },
+        "favicon": {
+            "shortcut": "",
+            "bookmark": ""
+        }
+    }
+}
